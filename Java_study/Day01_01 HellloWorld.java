@@ -1,5 +1,4 @@
 /* hello world */
-
 // [패키지 선언]
 // ken이라는 패키지에 속한다는 선언
 package ken;
