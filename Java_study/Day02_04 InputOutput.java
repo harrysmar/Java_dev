@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
       /* input & output */
+        
       // [출력]
       // 콘솔에 문자열 출력하기
       System.out.println("Hello, I am ken!");
@@ -27,5 +28,5 @@ public class Main {
       // 사용자가 키보드로 입력한 정수를 읽어서 number 변수에 저장
       int number = scanner.nextInt();
       // 사용자가 입력한 숫자를 포함한 메시지 출력
-      // 사용자가 문자를 치면 오류 발생
+      // 사용자가 문자를 입력하면 오류 발생
       System.out.println("You just typed " + number);
