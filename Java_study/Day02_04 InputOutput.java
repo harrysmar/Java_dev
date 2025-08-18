@@ -23,10 +23,12 @@ public class Main {
       System.out.println("Your grade is " + grade);
 
       // [입력]
-      // 키보드 입력을 받기 위한 Scanner 객체 생성 (System.in = 키보드)
+      // Scanner scanner;  // 스캐너 타입의 변수만 선언 (빈 상자만 만든 상태)
+      // Scanner scanner = new Scanner();  // 실제 스캐너 객체를 만들어서 넣기
+      // System.in // 키보드 (표준 입력 장치)
       Scanner scanner = new Scanner(System.in);
       // 사용자가 키보드로 입력한 정수를 읽어서 number 변수에 저장
       int number = scanner.nextInt();
       // 사용자가 입력한 숫자를 포함한 메시지 출력
-      // 사용자가 문자를 입력하면 오류 발생
+      // 무조건 숫자를 입력을 해야 함
       System.out.println("You just typed " + number);
