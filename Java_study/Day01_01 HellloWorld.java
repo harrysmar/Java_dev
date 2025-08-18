@@ -20,5 +20,6 @@ public class main {
         // 콘솔에 "Hello world!" 출력 
         // println = print line은 출력 후 줄바꿈
         System.out.println("Hello world!");
+        
     }
 }
