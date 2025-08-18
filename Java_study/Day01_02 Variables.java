@@ -1,7 +1,11 @@
 package ken;
 
 /* comment */
+
+// [한 줄 주석]
 // 한 줄 주석은 이렇게 답니다
+
+// [여러 줄 주석]
 /*
 * 여러 줄 주석은
 * 이렇게 답니다
@@ -11,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
      
         /* variables */
+        
         // [정수형 변수]
         // 정수형 변수 points 선언 (메모리 공간 확보)
         int points;
