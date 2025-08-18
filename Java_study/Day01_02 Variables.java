@@ -36,9 +36,10 @@ public class Main {
         boolean subscribed = false;
         
         // [문자형 변수]
-        // 단일 문자 저장 (char은 작은따옴표 사용)
+        // 단일 문자 저장 (char는 작은따옴표 사용)
         char grade = 'A';
         // 문자열 저장 (String은 큰따옴표 사용)
         String name = "Ken";
+        
     }
 }
